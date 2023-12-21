@@ -1,0 +1,54 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.container{
+height: 150vh;
+width: 100%;
+background-color: rgb(181, 194, 190);
+padding: 40px;
+
+
+}
+
+.form-group{
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+padding: 100px;
+
+}
+input[type = text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+ }
+ .selctFood{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+ }
+ button[type = submit]
+ {
+    width: 60%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+ }
+ #display {
+   display: none; /* Hide the table initially */
+}
+.h1{
+   font-size: medium;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.p1{
+font-style: italic;
+font-size: xx-small;
+
+}
